@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+#container {
+    width: 980px;
+	height:400px;
+    margin-top: 10px;
+    padding-top: 30px;
+    background-image:url(../images/reg_bg.gif);
+    background-repeat: repeat-x;
+    margin: auto;
+}
+.left {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+table {
+    width: 580px;
+    height: 300px;
+
+}
+#tu{
+	width:160px;
+	height:34px;
+	padding-left:250px;
+}
+.along {
+    text-align: right;
+}
+#box{
+	width:580px;
+	height:50px;
+}
+#box ul{
+	list-style-type:none;
+}
+#box ul li{
+	float:left;
+}
+#button1{
+	width:80px;
+	height:34px;
+	background-image:url(../images/submit.gif);
+	margin-top:20px;
+	margin-left:120px;
+	border-radius:5px;
+}
+#button2{
+	width:80px;
+	height:34px;
+	background-image:url(../images/reset.gif);
+	margin-top:20px;
+	margin-left:40px;
+	border-radius:5px;
+}
+.right {
+    margin-top: 50px;
+
+}
+textarea {
+    margin-top: 20px;
+}
+span {
+    font-weight: bolder;
+}

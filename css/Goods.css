@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+table{
+	width:980px;
+	height:250px;
+	margin:auto;
+}
+.top{
+	height:33px; 
+	background-image:url(../images/buytitle_bg.gif);
+	text-align:center;
+}
+
+.hui{
+	  color:#CCC}
+.hong{
+	   color:#F00}

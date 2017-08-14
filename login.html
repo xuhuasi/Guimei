@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="css/head and foot.css" />
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<script type="text/javascript">
+	function check(){
+		var name,pwd,email;
+		name=document.getElementById("uname").value;
+		pwd=document.getElementById("upwd").value;
+		var exp=/\w/;
+		if(exp.test(name)){
+			document.getElementById(uname),innerHTML="该用户名可以使用";
+			}
+		else {
+			document.getElementById(uname),innerHTML="该用户名出现错误";
+			}
+	}
+
+</script>
+</head>
+
+<body>
+<div id="head">
+  <div id="subnav">
+    <ul>
+      <li class="pic" id="pic1"></li>
+      <li><a href="Goods.html">购物车</a></li>
+      <li class="pic" id="pic2"></li>
+      <li><a href="help center.html">帮助中心</a></li>
+      <li class="pic" id="pic3"></li>
+      <li><a href="product list.html">加入收藏</a></li>
+      <li class="pic" id="pic4"></li>
+      <li><a href="index.html">设为首页</a></li>
+      <li>
+        <form action="login.html"><button>登录</button></form>
+      </li>
+      <li>
+        <form action="register.html"><button>注册</button></form>
+      </li>
+    </ul>
+  </div>
+  <marquee>您好！欢迎访问贵美商城~</marquee>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">首页</a>
+         <ul class="subnav">
+            <li><a href="product list.html">家用电器</a></li>
+            <li><a href="product list.html">书籍</a></li>
+            <li><a href="product list.html">手机数码</a></li>
+            <li><a href="product list.html">日用百货</a></li>
+         </ul>
+      </li>
+      <li><a href="product list.html">家用电器</a>
+         <ul class="subnav">
+            <li><a href="product list.html">大家电</a></li>
+            <li><a href="product list.html">洗衣机</a></li>
+            <li><a href="product list.html">平板电脑</a></li>
+            <li><a href="product list.html">电热水器</a></li>
+         </ul>
+      </li>
+      <li><a href="product list.html">手机数码</a>
+         <ul class="subnav">
+            <li><a href="product list.html">大家电</a></li>
+            <li><a href="product list.html">洗衣机</a></li>
+            <li><a href="product list.html">平板电脑</a></li>
+            <li><a href="product list.html">电热水器</a></li>
+         </ul>
+      </li>
+      <li><a href="product list.html">日用百货</a></li>
+      <li><a href="product list.html">书籍</a></li>
+      <li><a href="help center.html">帮助中心</a></li>
+      <li><a href="#">免费开店</a></li>
+      <li><a href="#">全球咨询</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="center">
+    <div id="register">
+       <img src="images/logintitle.gif" />
+       <div id="box">
+       <ul>
+           <li>会员名：<input type="text" id="uname" />（可包含a-z、0-9和下划线）</li>
+           <li>密　码：<input type="password" id="upwd" />（至少包含6个字符）</li>
+       </ul>
+       <form action="login successfully.html"><button id="button1"></button></form>
+       </div>
+       <div id="text">
+         <ul>
+           <li><img src="images/1.png" /><a href="#">什么是安全登录。</a></li>
+           <li><img src="images/1.png" />香港会员（繁体中文用户）由此<a href="#">登入</a></li>
+           <li><img src="images/1.png" /><a href="#">密码安全贴士。</a></li>
+           <li><img src="images/1.png" />防止病毒或者木马窃取您的账户信息，<a href="#">在线检查</a>您的电脑是否安全。</li>
+         </ul>
+       </div>
+       
+    </div>
+    
+    <div id="login">
+      <img src="images/register.gif" />
+      <div id="zhu">
+        <dl>
+          <dt><img src="images/2.gif" /></dt>
+          <dd><span>便宜有好货！</span>超过7000万件商品任您选。</dd>
+        </dl>
+        <dl>
+          <dt><img src="images/3.gif" /></dt>
+          <dd><span>买卖更安全！</span>交易超安全。</dd>
+        </dl>
+        <dl>
+          <dt><img src="images/4.gif" /></dt>
+          <dd><span>免费开网店！</span>轻松赚钱交友。</dd>
+        </dl>
+        <dl>
+          <dt><img src="images/5.gif" /></dt>
+          <dd><span>超人气社区！</span>精彩活动每一天。</dd>
+        </dl>
+      </div>
+    <form action="register.html"><button id="button2"></button></form>
+    <div id="box1">
+      <div id="box2"><img src="images/6.gif" class="tu" />您已经是会员？<a href="login.html">由此登入</a></div>
+      <div id="box3"><img src="images/7.gif" class="tu"/>繁体中文用户由此<a href="register.html">注册</a></div>
+    </div>
+    </div>
+</div>
+
+<div id="foot">
+ 友情链接： 
+ <a href="http://www.baidu.com/">百度</a>
+ <a href="http://www.google.com.hk/">Google</a> 
+ <a href="http://cn.yahoo.com/">雅虎</a> 
+ <a href="http://www.taobao.com/">淘宝</a> 
+ <a href="http://m.paipai.com/">拍拍</a> 
+ <a href="http://www.eachnet.com/">易趣</a> 
+ <a href="http://www.dangdang.com/">当当</a> 
+ <a href="http://www.jindong.com/">京东商城</a> 
+ <a href="http://www.xunlei.com/">迅雷</a> 
+ <a href="http://www.sina.com/">新浪</a> 
+ <a href="http://www.163.com/">网易</a> 
+ <a href="http://www.sohu.com/">搜狐</a> 
+ <a href="http://www.baidu.com/">猫扑</a> 
+ <a href="http://www.baidu.com/">开心网</a> 
+ <a href="http://www.baidu.com/">新华网</a> 
+ <a href="http://www.baidu.com/">凤凰网</a>
+  <hr />
+  COPYRIGHT&copy;2003-2010北京市贵美商城有限公司 ALL RIGHT RESERVED<br />
+  热线：400-66-13060 Email:service@prd.com<br />
+  ICP:泸ICP备05021104号<br />
+  <img src="images/img1.gif" /> <img src="images/img2.gif" /> <img src="images/img3.gif" /> <img src="images/img4.gif" />
+  </div>
+</body>
+</html>

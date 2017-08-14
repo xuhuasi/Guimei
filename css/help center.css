@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#main {
+	width: 980px;
+	height: 500px;
+	margin: auto;
+}
+#box1 {
+	width: 180px;
+	height: 550px;
+	border: 1px solid #CF737B;
+    background-image:url("../images/customer%20(2).jpg");
+	margin-right: 10px;
+	float: left;
+	border-radius:5px;
+}
+#regsiter {
+	margin-top: 180px;
+}
+input {
+	width: 150px;
+	height: 30px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	background-color:#F6E9E3;
+}
+#box2 {
+	width: 750px;
+	height: 530px;
+	border: 1px solid #CF737B;
+	float: left;
+	padding:10px;
+	}
+h2{
+	line-height:50px;
+	}
+p{
+	line-height:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#mi{
+	margin-top:20px;
+}
+#mi a{
+	text-decoration:none;
+	color:#000;
+}
+#mi a:hover{
+	color:#FFDECB;
+}

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*头部样式*/
+#head {
+	width: 1024px;
+	height: 150px;
+	margin: auto;
+	background-image: url(../images/h_bg.jpg);
+}
+#subnav {
+	width: 500px;
+	height: 35px;
+	float: right;
+	margin-top: 8px;
+}
+#subnav ul {
+	list-style-type: none;
+	margin-left: 50px;
+}
+#subnav ul li {
+	line-height: 30px;
+	float: left;
+}
+#subnav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+.pic {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/icon.gif);
+}
+#pic1 {
+	background-position: 0px 3px;
+}
+#pic2 {
+	background-position: -35px 3px;
+}
+#pic3 {
+	background-position: -80px 3px;
+}
+#pic4 {
+	background-position: -120px 3px;
+}
+button {
+	width: 50px;
+	height: 20px;
+	border-radius: 5px;
+	margin-left: 10px;
+	background-color: #FFFEFB;
+}
+/*导航*/	   
+#nav {
+	width: 1000px;
+	height: 32px;
+	border: 0px solid red;
+	float: left;
+	margin-top: 53px;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 25px;
+}
+#nav ul li {
+	float: left;
+	width: 82px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	border: 0px solid blue;
+	text-align: center;
+	font-weight: bold;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+	width: 83px;
+	height: 30px;
+}
+#nav ul li a:hover {
+	background-image: url(../images/nav_bg.gif);
+}
+
+
+/*尾部*/
+#foot {
+	width: 1024px;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	margin-top:100px;
+}
+#foot a{
+	text-decoration:none;
+	color:#000;
+}
+#foot a:hover{
+	color:#F7B94F;
+}
